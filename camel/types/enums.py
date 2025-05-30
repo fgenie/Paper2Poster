@@ -35,6 +35,9 @@ class ModelType(UnifiedModelType, Enum):
     GPT_4O = "gpt-4o"
     GPT_4O_LATEST = 'chatgpt-4o-latest'
     GPT_4O_MINI = "gpt-4o-mini"
+    GPT_41 = "gpt-4.1"
+    GPT_41_MINI = "gpt-4.1-mini"
+    GPT_41_NANO = "gpt-4.1-nano"
     O1 = "o1"
     O3 = "o3"
     O1_PREVIEW = "o1-preview"

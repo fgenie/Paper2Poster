@@ -111,6 +111,27 @@ def get_agent_config(model_type):
             "model_platform": ModelPlatformType.OPENAI,
             # "model_name": '4o'
         }
+    elif model_type == '41':
+        agent_config = {
+            "model_type": ModelType.GPT_41,
+            "model_config": ChatGPTConfig().as_dict(),
+            "model_platform": ModelPlatformType.OPENAI,
+            # "model_name": '4o'
+        }
+    elif model_type == '41-mini':
+        agent_config = {
+            "model_type": ModelType.GPT_41_MINI,
+            "model_config": ChatGPTConfig().as_dict(),
+            "model_platform": ModelPlatformType.OPENAI,
+            # "model_name": '4o'
+        }
+    elif model_type == '41-nano':
+        agent_config = {
+            "model_type": ModelType.GPT_41_NANO,
+            "model_config": ChatGPTConfig().as_dict(),
+            "model_platform": ModelPlatformType.OPENAI,
+            # "model_name": '4o'
+        }
     elif model_type == '4o-mini':
         agent_config = {
             "model_type": ModelType.GPT_4O_MINI,
